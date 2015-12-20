@@ -69,7 +69,8 @@ def git_version():
     return GIT_REVISION
 
 
-def write_version_py(filename='polyssifier/version.py'):
+#def write_version_py(filename='polyssifier/version.py'):
+def write_version_py(filename='version.py'):
     # Copied from numpy setup.py
     cnt = """
 # THIS FILE IS GENERATED FROM polyssifier SETUP.PY
