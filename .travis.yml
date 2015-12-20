@@ -31,6 +31,7 @@ install:
 
 script:
 #  - py.test --cov=nimfa
+  - py.test --cov=polyssifier
 
 after_success:
   - coveralls
